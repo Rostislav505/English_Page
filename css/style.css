@@ -1,0 +1,141 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    flex: 1;
+    justify-content: center;
+    text-align: right;
+    padding: 20px 40px;
+    font-size: 16pt;
+    
+}
+
+.nav-links
+{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: right;
+    margin: auto 20px;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link
+{
+    display: flex;
+    list-style: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.nav-link:hover
+{
+    border-radius: 100px;
+    background: red;
+}
+
+.nav-link a
+{
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+/*CONTENT*/
+
+.wrapper
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.headings
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Prata';
+}
+
+.headings h1
+{
+    font-size: 2rem;
+}
+
+.headings h2
+{
+    display: inline-flex;
+    justify-content: right;
+    font-size: 1rem;
+}
+
+button
+{
+    width: 220px;
+    height: 70px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: violet;
+    cursor: pointer;
+
+}
+
+.butterfly-1
+{
+    position: absolute;
+    transform:rotate(-70deg);
+    top: 100px;
+    left: 850px;
+}
+
+.butterfly-2
+{
+    position: absolute;
+    transform:rotate(70deg);
+    top: 500px;
+    left: 1100px;
+}
+
+.butterfly-3
+{
+    position: absolute;
+    transform:rotate(-130deg);
+    top: 500px;
+    left: 500px;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    background-color: lightpink;
+}
+
